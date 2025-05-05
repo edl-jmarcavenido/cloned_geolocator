@@ -22,14 +22,15 @@ rootProject.allprojects {
 apply plugin: 'com.android.library'
 
 android {
+    compileSdkVersion 34
     if (project.android.hasProperty("namespace")) {
         namespace("com.baseflow.geolocator")
     }
 
-    compileSdk flutter.compileSdkVersion
+//    compileSdk flutter.compileSdkVersion
 
     defaultConfig {
-        minSdkVersion flutter.minSdkVersion
+        minSdkVersion 21
     }
     lintOptions {
         disable 'InvalidPackage'
