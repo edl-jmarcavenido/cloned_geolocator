@@ -1,3 +1,5 @@
+Currently using this to support for Flutter 3.24.5 namespace issue
+
 # Flutter geolocator plugin
 
 The Flutter geolocator plugin is built following the federated plugin architecture. A detailed explanation of the federated plugin concept can be found in the [Flutter documentation](https://flutter.dev/docs/development/packages-and-plugins/developing-packages#federated-plugins). This means the geolocator plugin is separated into the following packages:
